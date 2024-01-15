@@ -2,13 +2,10 @@
 
 body{
     font-family: 'Mulish', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 /* nav bar starts here */
-header{
-    max-width: 1200px;
-    margin: 0 auto;
-   
-}
 
 .nav-container{
     display: flex;
@@ -46,3 +43,92 @@ header{
     color: #FF5400;
 }
 /* nav bar ends here */
+
+
+
+/* banner section starts here */
+
+.banner{
+    width: 1170px;
+    margin: 50px auto 0;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient (180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    height: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+    position: relative;
+}
+.banner-text h1{
+    padding: 105px 285px 315px 285px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 800;
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    }
+.banner-text h4{
+    padding: 210px 245px 240px 245px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: absolute;
+    width: 675px;
+    height: 50px;
+}
+.banner-form{
+ padding: 310px 185px 105px 185px;
+ display: inline-flex;
+ gap: 25px;
+ align-items: flex-start;
+ margin-top: 50px;
+}
+ .banner-form > input{
+    width: 175px;
+    height: 50px;
+    border-radius: 10px;
+ }   
+   
+/* banner section ends here */
+
+/* our popular tour section starts here */
+
+.our-populer-tour{
+    display: flex;
+    margin-top: 100px;
+    gap: 90px;
+    height: 540px;
+}
+.our-populer-tour-text h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+ 
+}
+.our-populer-tour-text p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.button{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    border-radius: 8px;
+}
+.button p{
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+/* our popular tour section ends here */
