@@ -132,3 +132,43 @@ body{
     padding-top: 10px;
 }
 /* our popular tour section ends here */
+
+/* choose your destination section starts here */
+
+.choose-your-destination{
+    margin-top: 100px;
+}
+.choose-your-destination-text h1{
+    width: 478px;
+    height: 50px;
+    margin-left: 470px;
+    margin-right: 482px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.choose-your-destination-text p{
+    width: 640px;
+    height: 50px;
+    margin-left: 398px;
+    margin-right: 399px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.first-two-images{
+    display: flex;
+    gap: 24px;
+    height: 300px;
+    width: 573px;
+}
+
+
+/* choose your destination section ends here */
